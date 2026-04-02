@@ -1,6 +1,6 @@
 package modelo;
 
-class Cliente {
+public class Cliente {
     private String nome_cliente;
     private int idade_cliente;
 

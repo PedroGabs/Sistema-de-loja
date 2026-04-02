@@ -3,7 +3,7 @@ package modelo;
 import java.util.ArrayList;
 import java.util.List;
 
-class Pedido {
+public class Pedido {
     private Cliente cliente;
     private List<ItemPedido> itens;
 
