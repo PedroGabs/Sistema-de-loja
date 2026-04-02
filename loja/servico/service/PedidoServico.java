@@ -1,5 +1,7 @@
-import modelo.Pedido;
+package service;
+
 import modelo.ItemPedido;
+import modelo.Pedido;
 
 public class PedidoServico {
 

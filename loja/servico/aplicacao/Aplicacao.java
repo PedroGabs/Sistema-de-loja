@@ -1,5 +1,10 @@
-package modelo;
-package servico;
+package aplicacao;
+
+import modelo.Cliente;
+import modelo.ItemPedido;
+import modelo.Pedido;
+import modelo.Produto;
+import service.PedidoServico;
 
 public class Aplicacao {
     public static void main(String[] args) {
@@ -8,9 +13,9 @@ public class Aplicacao {
 
         Produto produto = new Produto("New Balance", 1240);
 
-        produto.aplicarDesconto(10);
+        produto.aplicarDesconto(43.5);
 
-        ItemPedido item = new ItemPedido(produto, 2);
+        ItemPedido item = new ItemPedido(produto, 3);
 
         Pedido pedido = new Pedido(cliente);
 
